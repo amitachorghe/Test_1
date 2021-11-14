@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=devide width,initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <form id="form1">
+    
+        <h1><b>Form</b></h1>
+      <label><b>Name</b></label>
+      <input type="text" name="name" />
+      <br />
+      <br>
+      <label><b>Email</b></label>
+      <input type="email" name="email" max="10" min="1" required />
+      <br />
+      <br>
+      <label><b>Age</b></label>
+      <input type="number" maxlength="2"  name="age" />
+      <br />
+      <br>
+      <label><b>Country</b></label>
+      <input type="text" value="India" disabled />
+      <br />
+      <br>
+      <label><b>Password</b></label>
+      <input type="password" required name="password" />
+      <br />
+      <br>
+      <label><b>Gender</b></label>
+      <label> <input type="radio" name="gender" value="F" /> Female </label>
+      <label> <input type="radio" name="gender" value="M" /> Male </label>
+      <br />
+      <br>
+      <label for="city"><b>City</label>
+      <select id="city" name="city">
+        <option disabled selected>--Choose City--</option>
+        <optgroup label="Metros">
+          <option>New Delhi</option>
+          <option>Mumbai</option>
+          <option>Channai</option>
+          <option>Kolkata</option>
+          <option>Pune</option>
+        </optgroup>
+        <optgroup label="Others">
+          <option>Noida</option>
+          <option>Gurgram</option>
+          <option>Faridabad</option>
+          <option>Gaziabad</option>
+        </optgroup>
+      </select>
+      <br>
+      <br>
+      <label><b>Address</b></label>
+      <textarea rows="5" cols="30"> </textarea>
+      <br>
+      <br>
+      <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)">  I Agree To<a href="#"> Terms & Coditions</a>
+<br><br>
+      <button><b>Submit</b></button>
+      <button><b>Reset</b></button>
+    
+    </form>
+  </body>
+</html>

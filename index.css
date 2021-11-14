@@ -1,0 +1,33 @@
+
+form{
+    border: 5px solid rgb(201, 146, 74);
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 150px 500px;
+    padding: 20px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+button{
+    background-color: rgb(202, 180, 180);
+    color: rgb(49, 45, 45);
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    font-weight: 200;
+    color: rgb(12, 11, 12);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+}
+html {
+    background-color: rgba(228, 227, 226, 0.774);
+}
+input{
+    text-align: center;
+}
+    
